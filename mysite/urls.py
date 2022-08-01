@@ -18,4 +18,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('mathfunctions/', include('math_functions.urls')), # 数学函数
 ]
